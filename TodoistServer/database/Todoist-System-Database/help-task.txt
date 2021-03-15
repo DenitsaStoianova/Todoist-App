@@ -1,0 +1,9 @@
+add-task <name=...> '<date=...>' '<due-date=...>' '<description=...>'
+update-task <name=...> '<date=...>' '<due-date=...>' '<description=...>'
+delete-task <name=...> '<date=...>'
+get-task <name=...> '<date=...>'
+list-tasks '<completed=true|false>' '<date=...>'
+list-dashboard
+finish-task <name=...> '<date=...>'
+* all command tokens between '' are optional
+* if you want to work in collaboration - add '<collaboration=...>' to commands

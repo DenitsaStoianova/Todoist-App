@@ -1,7 +1,0 @@
-add-label <name=...>
-delete-label <name=...>
-list-collaborations
-list-labels
-label-task <name=...> '<date=...>' <label=...>
-list-tasks <label=...> '<completed=true|false>' '<date=...>'
-* all command tokens between '' are optional

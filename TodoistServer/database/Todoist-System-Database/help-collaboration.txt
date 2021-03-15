@@ -1,0 +1,8 @@
+add-collaboration <name=...>
+delete-collaboration <name=...>
+list-collaborations
+add-user <collaboration=...> <user=...>
+list-tasks <collaboration=...> '<completed=true|false>' '<date=...>'
+assign-task <collaboration=...> <user=...> <task=...> '<date=...>'
+list-users <collaboration=...>
+* all command tokens between '' are optional
